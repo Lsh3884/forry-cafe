@@ -1,4 +1,154 @@
 @charset "utf-8";
-.banner-1{
-    background: url("../images/banner-1.bg.png") no-repeat;
+* {
+  box-sizing: border-box;
 }
+body{
+    background-color: burlywood;
+}
+.wrap {
+  width: 100%;
+  max-width: 1920px;
+  margin: auto;
+  display: block;
+}
+.header {
+  width: 100%;
+  background-color: #ff0707;
+  display: flex;
+  justify-content: space-between;
+}
+
+.banner-1-inner {
+}
+.header .logo {
+  width: 30%;
+  max-width: 300px;
+  min-width: 260px;
+}
+.header .logo img {
+  padding: 40px;
+  width: 100%;
+  background-color: #ff0707;
+}
+.header .nav {
+  display: flex;
+  padding: 40px 20px;
+}
+.header .nav .menu li {
+  float: left;
+  list-style: none;
+  padding: 10px 30px;
+  /* background-color: aqua; */
+  font-size: 30px;
+}
+.header .nav .menu li a {
+  text-decoration: none;
+  color: white;
+}
+/* banner-1 */
+.banner-1 {
+  width: 100%;
+  max-width: 1920px;
+  background: url("../images/banner-1.bg.png") no-repeat center;
+  display: flex;
+  justify-content: center;
+}
+.banner-1 img {
+  width: 100%;
+  max-width: 1000px;
+  min-width: 956px;
+  margin-left: 500px;
+  margin-top: 50px;
+}
+/* banner-2 */
+.banner-2 {
+  width: 100%;
+  height: 1400px;
+  max-width: 1920px;
+  /* background-color: pink; */
+  /* border: 1px solid #333; */
+  background-color: white;
+  display: flex;
+}
+.banner-2-inner {
+}
+.banner-2-inner .bn2-title {
+  margin: 100px 80px;
+}
+.banner-2-inner .container {
+  margin: auto;
+ position: relative;
+}
+.container .menu-1{
+    
+    position: absolute;
+    top: -70px;
+    left: 100px;
+}
+.container .menu-2{
+    position: absolute;
+    top: -10px;
+    left: 1000px;
+}
+.container .menu-3{
+    position: absolute;
+    top: 350px;
+    left: 600px;
+}
+/* banner-3 */
+.banner-3{
+    width: 100%;
+    display: flex;
+}
+.banner-3-inner{
+    display: flex;
+   
+}
+.banner-3-inner h1 {
+    text-align: center;
+    font-size: 80px;
+    font-weight: 900;
+    color: white;
+}
+.banner-3-inner p{
+    text-align: center;
+    font-size: 30px;
+    font-weight: 500;
+    margin-top: 20px;
+    color: white;
+    line-height: 40px;
+}
+.img-1{
+    position: relative;
+}
+.img-1 .img-1-text{
+    position: absolute;
+    top: 45%;
+    left: 50%;
+    transform: translate(-50% , -50%);
+
+}
+.img-2{
+    position: relative;
+}
+.img-2 .img-2-text{
+    position: absolute;
+    top: 45%;
+    left: 50%;
+    transform: translate(-50% , -50%);
+
+}
+.img-2 .img-2-text h1{
+    width: 400px;
+}
+.img-3{
+    position: relative;
+}
+.img-3 .img-3-text{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50% , -50%);
+
+}
+/* banner-4 */
