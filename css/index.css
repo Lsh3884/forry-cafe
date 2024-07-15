@@ -239,7 +239,7 @@ body{
     display: block;
     margin: 0 auto;
     /* margin-top: 20px; */
-    width: 250px;
+    width: 300px;
     
 }
 .footer .footer-locate{
@@ -248,9 +248,12 @@ body{
   text-align: center;
   font-size: 30px;
   color: white;
-  line-height: 40px;
+  line-height: 50px;
   margin-top: 10px;
-  padding-top: 50px;
+  padding-top: 10px;
+}
+.footer .footer-locate img{
+  padding-top: 20px;
 }
 .footer .footer-locate .copy-right{
   width: 100%;
