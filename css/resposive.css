@@ -1,97 +1,75 @@
 @charset "utf-8";
-@media screen and (max-width: 1427px) {
-  .banner-img-mb {
-    display: block;
-  }
-  .banner-1 .banner-img {
-    display: none;
-  }
+@media screen and (max-width : 1427px) {
+    .banner-img-mb{
+        display: block;
+      }
+      .banner-1 .banner-img{
+        display: none;
+      }
 }
-@media screen and (max-width: 1200px) {
-  html {
-    font-size: 9px;
-  }
-  
-}
-@media screen and (max-width: 1060px) {
-  .header .nav {
-    display: none;
-  }
-  html {
-    font-size: 6px;
-  }
-}
-@media screen and (max-width: 900px) {
-  .container {
-    height: 400px;
-  }
+@media screen and (max-width : 1060px){
+    .header .nav{
+        display: none;
+    }
 
-  html {
-    font-size: 5px;
-  }
 }
-@media screen and (max-width: 768px) {
-  html {
-    font-size: 4px;
-  }
+@media screen and (max-width : 900px){
+    .container .menu-1{
+        width: 50%;
+        position: absolute;
+        top: -70px;
+        left: 0px;
+    }
+    .container .menu-2{
+        width:50%;
+          position: absolute;
+          top: -50px;
+          left: 420px;
+      }
+      .container .menu-3{
+        width: 50%;
+          position: absolute;
+          top: 200px;
+          left: 200px;
+      }
 }
-@media screen and (max-width: 670px) {
-  .container {
-    height: 300px;
-  }
-  .banner-2-inner .bn2-title {
-    margin: 70px 80px;
-    margin-bottom: 100px;
-  }
+@media screen and (max-width : 768px){
+    .container .menu-1{
+        width: 50%;
+        position: absolute;
+        top: -70px;
+        left: 1px;
+    }
+    .container .menu-2{
+        width:50%;
+          position: absolute;
+          top: -50px;
+          left: 350px;
+      }
+      .container .menu-3{
+        width: 50%;
+          position: absolute;
+          top: 200px;
+          left: 150px;
+      }
 }
-@media screen and (max-width: 600px) {
-  .container {
-    height: 280px;
+@media screen and (max-width : 400px){
+  .container .menu-1{
+      width: 50%;
+      position: absolute;
+      top: -70px;
+      left: 1px;
   }
-  .banner-2-inner .bn2-title {
-    margin-bottom: 120px;
-  }
-}
-@media screen and (max-width: 500px) {
-  .container {
-    height: 200px;
-  }
-  .container .menu-3 {
-    width: 35%;
-    position: absolute;
-    top: 10%;
-    left: 30%;
-  }
-}
-@media screen and (max-width: 400px) {
-  .container {
-    height: 150px;
-  }
-}
-@media screen and (max-width: 320px) {
-  .container {
-    height: 420px;
-  }
-  .banner-2-inner .bn2-title {
-    margin: 50px 80px;
-  }
-  .container .menu-1 {
-    width: 60%;
-    position: absolute;
-    top: -50px;
-    left: 50px;
-  }
-
-  .container .menu-2 {
-    width: 60%;
-    top: 100px;
-    left: 50px;
-  }
-
-  .container .menu-3 {
-    width: 60%;
-
-    top: 230px;
-    left: 50px;
-  }
+  .container .menu-2{
+      width:50%;
+        position: absolute;
+        top: -50px;
+        left: 350px;
+    }
+    .container .menu-3{
+      width: 50%;
+        position: absolute;
+        top: 200px;
+        left: 150px;
+    }
 }
