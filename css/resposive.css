@@ -16,6 +16,16 @@
   .header .nav {
     display: none;
   }
+  .header .bar{
+    display: block;
+    position: absolute;
+    right: 30px;
+    top: 50%;
+    transform: translateY(-50%);
+  }
+  .header .bar img{
+    width: 50px;
+  }
   html {
     font-size: 6px;
   }
@@ -24,10 +34,20 @@
   .container{
     height: 400px;
   }
- 
+  .header .logo img {
+    padding: 20px;
+  }
   html {
     font-size: 5px;
   }
+  .banner-3 h1{
+    font-size: 45px;
+    
+  }
+  .banner-3 p{
+    line-height: 20px;
+  }
+  
 
 }
 @media screen and (max-width: 768px) {
@@ -35,7 +55,17 @@
   html {
     font-size: 4px;
   }
-
+  .footer-inner{
+    padding-top: 20px;
+  }
+  .footer .footer-locate{
+    font-size: 20px;
+    padding: 0;
+  }
+  .footer .ft-logo{
+    width: 200px;
+  }
+  
  
 }
 @media screen and (max-width: 670px) {
@@ -46,6 +76,24 @@
     margin: 70px 80px;
     margin-bottom: 100px;
   }
+  .header{
+    height: 30%;
+  }
+  .banner-3 h1{
+    font-size: 30px;
+    
+  }
+  .banner-3 p{
+    line-height: 15px;
+  }
+  
+  .header .bar img{
+    width: 45px;
+  }
+  .header .logo img{
+    width: 170px;
+  }
+  
 }
 @media screen and (max-width: 600px) {
   .container{
@@ -53,6 +101,24 @@
   }
   .banner-2-inner .bn2-title {
     margin-bottom: 120px;
+  }
+  .footer-inner{
+    padding-top: 20px;
+  }
+  .footer .footer-locate{
+    font-size: 17px;
+    line-height: 30px;
+
+  }
+  .footer .footer-locate img{
+    width: 150px;
+    padding: 10px 0 5px 0;
+  }
+  .footer .ft-logo{
+    width: 180px;
+  }
+  .header .logo img{
+    width: 150px;
   }
 }
 @media screen and (max-width: 500px) {
@@ -66,10 +132,59 @@
       left: 30%;
      
   }
+  .header .logo img{
+    width: 130px;
+  }
+  .header .bar img{
+    width: 30px;
+  }
+  .footer-inner{
+    padding-top: 20px;
+  }
+  .footer .footer-locate{
+    font-size: 15px;
+    line-height: 20px;
+
+  }
+  .footer .footer-locate img{
+    width: 130px;
+    padding: 15px 0 10px 0;
+  }
+  .footer .ft-logo{
+    width: 150px;
+  }
 }
 @media screen and (max-width: 400px) {
   .container{
     height:150px;
+  }
+  .banner-3 h1{
+    font-size: 20px;
+    
+  }
+  .banner-3 p{
+    line-height: 15px;
+  }
+  .footer-inner{
+    padding-top: 20px;
+  }
+  .footer .footer-locate{
+    font-size: 13px;
+    line-height: 20px;
+
+  }
+  .footer .footer-locate img{
+    width: 130px;
+    padding: 10px 0 5px 0;
+  }
+  .footer .ft-logo{
+    width: 140px;
+  }
+  .header .logo img{
+    width: 130px;
+  }
+  .header .bar img{
+    width: 25px;
   }
   
 }
@@ -98,6 +213,35 @@
  
   top: 230px;
   left:50px;
+}
+.banner-3 h1{
+  font-size: 15px;
+  
+}
+.banner-3 p{
+  line-height: 12px;
+  font-size: 10px;
+}
+.footer-inner{
+  padding-top: 10px;
+}
+.footer .footer-locate{
+  font-size: 10px;
+  line-height: 17px;
+
+}
+.footer .footer-locate img{
+  width: 100px;
+  /* padding: 5px 0; */
+}
+.footer .ft-logo{
+  width: 100px;
+}
+.header .logo img{
+  width: 120px;
+}
+.header .bar img{
+  width: 22px;
 }
 
 }

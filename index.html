@@ -17,7 +17,6 @@
     <!-- 소셜 미디어에서 페이지가 웹사이트임을 명시 -->
     <meta property="og:type" content="website" />
 
-
     <!-- 소셜 미디어에서 공유될 때 사용되는 URL -->
     <meta property="og:url" content="https://lsh3884.github.io/forry-cafe/" />
     <!-- 소셜 미디어에서 페이지가 공유될 때 표시되는 이미지 -->
@@ -27,13 +26,13 @@
     <title>Document</title>
     <link rel="stylesheet" href="css/reset.css" />
     <!-- Link Swiper's CSS -->
-  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
     <link rel="stylesheet" href="css/index.css" />
-    <link rel="stylesheet" href="css/resposive.css">
-     <!-- Swiper JS -->
-  <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <link rel="stylesheet" href="css/resposive.css" />
+    <!-- Swiper JS -->
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
   </head>
-  
+
   <body>
     <div class="wrap">
       <div class="header">
@@ -57,22 +56,23 @@
               <a href="#">프랜차이즈</a>
             </li>
           </ul>
-          
+          <!-- 반응형 햄버거바 -->
         </div>
+        <a href="#" class="bar"><img src="images/Frame.png" alt="" /></a>
       </div>
 
       <!-- 1번째 배너 -->
-       <!-- Swiper -->
-  <div class="swiper visual">
-    <div class="swiper-wrapper">
-      <div class="swiper-slide"><img src="images/Frame 1.png" alt=""></div>
-      <div class="swiper-slide"><img src="images/main banner-2.png" alt=""></div>
-      
-    </div>
-    <div class="swiper-button-next"></div>
-    <div class="swiper-button-prev"></div>
-    <div class="swiper-pagination"></div>
-  </div>
+      <!-- Swiper -->
+      <div class="swiper visual">
+        <div class="swiper-wrapper">
+          <div class="swiper-slide"><img src="images/Frame 1.png" alt="" /></div>
+          <div class="swiper-slide"><img src="images/main banner-2.png" alt="" /></div>
+          <div class="swiper-slide"><img src="images/main banner-3.png" alt="" /></div>
+        </div>
+        <div class="swiper-button-next"></div>
+        <div class="swiper-button-prev"></div>
+        <div class="swiper-pagination"></div>
+      </div>
       <!-- 2번째 배너 -->
       <div class="banner-2">
         <div class="banner-2-inner">
@@ -108,15 +108,15 @@
           <div class="img-2">
             <img src="images/banner3-2.png" alt="오는경로 배경 사진" />
             <div class="img-2-text">
-              <h1>HOW TO COME OUR CAFE</h1>
-              <p>매장에 오시는 길과 주차정보</p>
+              <h1>HOW TO <br />COME OUR <br />CAFE</h1>
+              <p>매장에 오시는 길과 <br />주차정보</p>
             </div>
           </div>
           <div class="img-3">
             <img src="images/banner3-3.png" alt="이벤트 배경 사진" />
             <div class="img-3-text">
               <h1>EVENT</h1>
-              <p>인스타그램 이벤트를 참여하면 쏟아지는 <br>쿠폰과 상품</p>
+              <p>인스타그램 이벤트를 참여하면 쏟아지는 <br />쿠폰과 상품</p>
             </div>
           </div>
         </div>
@@ -127,7 +127,7 @@
           <div class="left-title">
             <img src="images/bn4-title.png" alt="메인 글자" />
           </div>
-          <img src="images/lastBn-main.img.png" alt="메인 카페 이미지"class="right-img" />
+          <img src="images/lastBn-main.img.png" alt="메인 카페 이미지" class="right-img" />
         </div>
       </div>
       <!-- 푸터 -->
@@ -150,24 +150,23 @@
       </footer>
     </div>
     <!-- Initialize Swiper -->
-  <script>
-    var swiper = new Swiper(".visual", {
-      cssMode: true,
-      navigation: {
-        nextEl: ".swiper-button-next",
-        prevEl: ".swiper-button-prev",
-      },
-      pagination: {
-        el: ".swiper-pagination",
-      },
-      mousewheel: true,
-      keyboard: true,
-      autoplay: {
-        delay: 2500,
-        disableOnInteraction: false,
-      },
-      
-    });
-  </script>
+    <script>
+      var swiper = new Swiper(".visual", {
+        cssMode: true,
+        navigation: {
+          nextEl: ".swiper-button-next",
+          prevEl: ".swiper-button-prev",
+        },
+        pagination: {
+          el: ".swiper-pagination",
+        },
+        mousewheel: true,
+        keyboard: true,
+        autoplay: {
+          delay: 2500,
+          disableOnInteraction: false,
+        },
+      });
+    </script>
   </body>
 </html>
