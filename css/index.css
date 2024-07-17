@@ -47,6 +47,10 @@ body{
 .header .bar{
   display: none;
 }
+.menu-mobile{
+  display: none;
+}
+
 /* banner-1 */
 .visual {
   
@@ -185,7 +189,7 @@ body{
 
 }
 .img-2 .img-2-text h1{
-    width: 400px;
+    /* width: 400px; */
 }
 .img-3{
     position: relative;
