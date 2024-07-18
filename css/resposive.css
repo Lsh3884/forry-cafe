@@ -307,7 +307,7 @@
    width: 100%; /* 밑줄 길이 조절 */
   }
 }
-@media screen and (max-width: 400px) {
+@media screen and (max-width: 375px) {
   .container{
     height:150px;
   }
@@ -318,6 +318,32 @@
   .banner-3 p{
     line-height: 15px;
   }
+  .container{
+    height:420px;
+  }
+  
+  .banner-2-inner .bn2-title {
+    margin: 50px 80px;
+  }
+  .container .menu-1{
+    width:50%;
+    position: absolute;
+    top: -50px;
+    left:50px;
+}
+
+.container .menu-2{
+  width:50%;
+    top: 90px;
+    left:50px;
+}
+
+.container .menu-3{
+  width: 50%;
+ 
+  top: 220px;
+  left:50px;
+}
   .footer-inner{
     padding-top: 20px;
   }
