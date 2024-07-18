@@ -1,73 +1,65 @@
 @charset "utf-8";
-@media screen and (max-width: 320px){
-    .login-wrapper{
-        width: 250px;
+@media screen and (max-width: 320px) {
+  .login-wrapper {
+    width: 250px;
     height: 250px;
     padding: 10px;
-    }
-    .login-wrapper > h2{
-        
-        font-size: 20px;
-       
-        margin: 10px 0px 25px 0;
-    }
-    #login-form > input{
-        display: block;
-        margin: 0 auto;
-        width: 90%;
-        height: 30px;
-        padding: 0 10px;
-       
-        margin-bottom: 15px;
-        
-        font-size: 10px;
-    }
-    #login-form > input[type="submit"]{
-       
-        font-size: 15px;
-        
-        margin-top: 10px;
-    }
-    .remember-check a{
-   
-        font-size: 8px;
-        margin-left: 13px;
-    
-    }
+  }
+  .login-wrapper > h2 {
+    font-size: 20px;
+
+    margin: 10px 0px 25px 0;
+  }
+  #login-form > input {
+    display: block;
+    margin: 0 auto;
+    width: 90%;
+    height: 30px;
+    padding: 0 10px;
+
+    margin-bottom: 15px;
+
+    font-size: 10px;
+  }
+  #login-form > input[type="button"] {
+    font-size: 15px;
+
+    margin-top: 10px;
+  }
+  .remember-check a {
+    font-size: 8px;
+    margin-left: 13px;
+  }
 }
-@media screen and (max-width: 375px){
-    .login-wrapper{
-        width: 250px;
+@media screen and (max-width: 375px) {
+  .login-wrapper {
+    width: 250px;
     height: 250px;
     padding: 10px;
-    }
-    .login-wrapper > h2{
-        
-        font-size: 20px;
-       
-        margin: 10px 0px 25px 0;
-    }
-    #login-form > input{
-        display: block;
-        margin: 0 auto;
-        width: 90%;
-        height: 30px;
-        padding: 0 10px;
-       
-        margin-bottom: 15px;
-        
-        font-size: 10px;
-    }
-    #login-form > input[type="submit"]{
-       
-        font-size: 15px;
-        
-        margin-top: 10px;
-    }
-    .remember-check a{
-   
-        font-size: 8px;
-        margin-left: 13px;
-    
-    }
+  }
+  .login-wrapper > h2 {
+    font-size: 20px;
+
+    margin: 10px 0px 25px 0;
+  }
+  #login-form > input {
+    display: block;
+    margin: 0 auto;
+    width: 90%;
+    height: 30px;
+    padding: 0 10px;
+
+    margin-bottom: 15px;
+
+    font-size: 10px;
+  }
+  #login-form > input[type="button"] {
+    font-size: 15px;
+
+    margin-top: 10px;
+  }
+  .remember-check a {
+    font-size: 8px;
+    margin-left: 13px;
+  }
 }

@@ -1,23 +1,23 @@
 <!DOCTYPE html>
 <html lang="ko">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Login Page</title>
-    <link rel="stylesheet" href="css/loginPage.css">
-    <link rel="stylesheet" href="css/loginPg-resposive.css">
-</head>
-<body>
+    <link rel="stylesheet" href="css/loginPage.css" />
+    <link rel="stylesheet" href="css/loginPg-resposive.css" />
+  </head>
+  <body>
     <div class="login-wrapper">
-        <h2>Forry Cafe Login</h2>
-        <form method="post" id="login-form">
-            <input type="text" name="userName" placeholder="Email">
-            <input type="password" name="userPassword" placeholder="Password">
-            <label class="remember-check">
-              <a href="#">회원가입 페이지로 넘어가기</a>
-            </label>
-            <input type="submit" value="Login">
-        </form>
+      <h2>Forry Cafe Login</h2>
+      <form method="post" id="login-form">
+        <input type="text" name="userName" placeholder="Email" />
+        <input type="password" name="userPassword" placeholder="Password" />
+        <label class="remember-check">
+          <a href="#">회원가입 페이지로 넘어가기</a>
+        </label>
+        <input type="button" value="Login" onclick="alert(`로그인이 완료되었습니다.`)">
+      </form>
     </div>
-</body>
+  </body>
 </html>
