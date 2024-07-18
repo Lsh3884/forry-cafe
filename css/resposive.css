@@ -423,4 +423,8 @@
 .visual .swiper-button-next , .visual .swiper-button-prev{
   display: none;
 }
+.banner-3-inner p{
+  display: none;
+}
+
 }
